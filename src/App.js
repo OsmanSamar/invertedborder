@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import ContentSection from "./component/ContentSection";
+// import Inverted from "./component/Inverted";
+import Navbar from "./component/Navbar";
+import ProcessIAction from "./component/ProcessIAction";
+import TableHeader from "./component/TableHeader";
+import Testimonils from "./component/Testimonils";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <TableHeader />
+      <div className="w-full bg-[#061130] py-10">
+        <ContentSection />
+      </div>
+      <Testimonils />
+      <ProcessIAction />
+      {/* <Inverted /> */}
+    </>
   );
 }
 
