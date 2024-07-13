@@ -79,31 +79,70 @@ const TableHeader = () => {
             </div>
           </div> */}
           <div className="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-4 mb-4">
+            {/* Price Range */}
             <div className="flex flex-col">
               <label htmlFor="price-range" className="text-gray-700 mb-2">
                 Price Range
               </label>
-              <input
-                id="price-range"
-                type="text"
-                value={priceRange}
-                onChange={(e) => setPriceRange(e.target.value)}
-                className="block w-full p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600"
-                placeholder="Enter price range"
-              />
+              <div className="relative  rounded-lg shadow-sm">
+                <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                  <span className="text-gray-500 sm:text-sm">$</span>
+                </div>
+                <input
+                  id="price-range"
+                  type="text"
+                  value={priceRange}
+                  onChange={(e) => setPriceRange(e.target.value)}
+                  className="block w-full sm:text-sm sm:leading-6 text-gray-900 
+                  py-1.5 pl-7 pr-15
+                  border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600"
+                  placeholder="0.00"
+                />
+
+                <div className="absolute inset-y-0 right-0 flex items-center">
+                  <label htmlFor="currency" className="sr-only">
+                    Currency
+                  </label>
+                  <select
+                    id="currency"
+                    name="currency"
+                    className="h-full rounded-lg border-0 bg-transparent py-0 pl-2 pr-1.5 text-gray-700 focus:ring-2 focus:ring-inset focus:ring-orange-600 sm:text-sm"
+                  >
+                    <option>USD</option>
+                    <option>CAD</option>
+                    <option>EUR</option>
+                  </select>
+                </div>
+              </div>
             </div>
+            {/* End Price Range */}
+            {/*  Property Type */}
             <div className="flex flex-col">
               <label htmlFor="property-type" className="text-gray-700 mb-2">
                 Property Type
               </label>
-              <input
-                id="property-type"
-                type="text"
-                value={propertyType}
-                onChange={(e) => setPropertyType(e.target.value)}
-                className="block w-full p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600"
-                placeholder="Enter property type"
-              />
+              <div className="relative  rounded-lg shadow-sm">
+                <div class=" relative w-full">
+                  <select
+                    id="property-type"
+                    aria-describedby="helper-text-explanation"
+                    className="block w-full lg:w-[190px] h-[38px] sm:text-sm sm:leading-6 text-gray-900 
+                  py-1.5 pl-3 pr-15
+                  border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600
+                  focus:ring-2 focus:ring-inset
+                  
+                  
+                  "
+                  >
+                    <option selected value="Villa">
+                      Villa
+                    </option>
+                    <option value="Family house">Family house</option>
+                    <option value="Apartment">Apartment</option>
+                    <option value="Luxe House">Luxe House</option>
+                  </select>
+                </div>
+              </div>
             </div>
           </div>
         </form>
