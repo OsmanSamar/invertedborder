@@ -37,7 +37,7 @@ const TableHeader = () => {
             <input
               type="search"
               id="default-search"
-              class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600 "
+              className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600 "
               placeholder="Search destinations"
               value={searchLocation}
               onChange={(e) => setSearchLocation(e.target.value)}
@@ -45,35 +45,35 @@ const TableHeader = () => {
             />
             <button
               type="submit"
-              class="text-white absolute right-2.5 bottom-8 bg-orange-600 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-6 py-2  "
+              className="text-white absolute right-2.5 bottom-8 bg-orange-600 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-6 py-2  "
             >
               Search
             </button>
               
           </div>
 
-          {/* <div className="flex flex-col md:flex-row  justify-between space-y-4 md:space-y-0 md:space-x-4  mb-4">
-            <div className="flex flex-col">
-              <label htmlFor="check-in" className="text-gray-700 mb-2">
+          {/* <div classNameName="flex flex-col md:flex-row  justify-between space-y-4 md:space-y-0 md:space-x-4  mb-4">
+            <div classNameName="flex flex-col">
+              <label htmlFor="check-in" classNameName="text-gray-700 mb-2">
                 Check-in
               </label>
               <DatePicker
                 id="check-in"
                 selected={checkInDate}
                 onChange={(date) => setCheckInDate(date)}
-                className="block w-full p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600 "
+                classNameName="block w-full p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600 "
                 placeholderText="Select check-in date"
               />
             </div>
-            <div className="flex flex-col">
-              <label htmlFor="check-out" className="text-gray-700 mb-2">
+            <div classNameName="flex flex-col">
+              <label htmlFor="check-out" classNameName="text-gray-700 mb-2">
                 Check-out
               </label>
               <DatePicker
                 id="check-out"
                 selected={checkOutDate}
                 onChange={(date) => setCheckOutDate(date)}
-                className="block w-full p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600 "
+                classNameName="block w-full p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-orange-600 focus:border-orange-600 "
                 placeholderText="Select check-out date"
               />
             </div>

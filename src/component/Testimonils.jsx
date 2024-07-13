@@ -18,9 +18,11 @@ const Testimonils = () => {
             data-aos-once="false" //Control if the animation happens only once or every time the element is scrolled into view.
             data-aos-mirror="true" //Repeat the animation when scrolling up.
             // data-aos-offset="100" //Adjust the trigger point of the animation relative to the viewport.
-            className=" flex flex-col justify-between p-6 space-y-6 rounded-lg bg-gradient-to-tr from-[#8cb1d5]  to-[#eaaa64] to-[#d0852d] "
+            className=" flex flex-col justify-between p-6 space-y-6 rounded-lg bg-gradient-to-tr from-[#1746a2] via-[#eaaa64] to-[#d0852d] "
           >
             {/* to-[#350a25]  from-[#FF6F48]  to-[#24161f] */}
+            {/* from-[#8cb1d5] via-[#eaaa64] to-[#d0852d] */}
+            {/* from-[#1746a2] via-[#5f9df7] to-[#ff731d] */}
             <h1 className="text-xl md:text-2xl lg:text-3xl text-gray-100 font-bold">
               Step into elegance and make unforgettable memories in your dream
               home!
@@ -61,6 +63,7 @@ const Testimonils = () => {
                 <div className="name absolute h-17 w-1/2 bg-white top-[-70px] right-0 border-t-10 border-l-10 border-black rounded-tl-2xl ">
                   <span className="text-black px-4 py-2 my-1 block rounded-md text-xs font-normal">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lorem
                   </span>
                 </div>
               </div>
@@ -102,6 +105,7 @@ const Testimonils = () => {
                 <div className="name absolute h-17 w-1/2 bg-white top-[-70px] right-0 border-t-10 border-l-10 border-black rounded-tl-2xl ">
                   <span className="text-black px-4 py-2 my-1 block rounded-md text-xs font-normal">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lorem
                   </span>
                 </div>
               </div>
@@ -143,6 +147,7 @@ const Testimonils = () => {
                 <div className="name absolute h-17 w-1/2 bg-white top-[-70px] right-0 border-t-10 border-l-10 border-black rounded-tl-2xl ">
                   <span className="text-black px-4 py-2 my-1 block rounded-md text-xs font-normal">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lorem
                   </span>
                 </div>
               </div>
@@ -184,6 +189,7 @@ const Testimonils = () => {
                 <div className="name absolute h-17 w-1/2 bg-white top-[-70px] right-0 border-t-10 border-l-10 border-black rounded-tl-2xl ">
                   <span className="text-black px-4 py-2 my-1 block rounded-md text-xs font-normal">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lorem
                   </span>
                 </div>
               </div>
@@ -227,6 +233,7 @@ const Testimonils = () => {
                 <div className="name absolute h-17 w-1/2 bg-white top-[-70px] right-0 border-t-10 border-l-10 border-black rounded-tl-2xl ">
                   <span className="text-black px-4 py-2 my-1 block rounded-md text-xs font-normal ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lorem
                   </span>
                 </div>
               </div>

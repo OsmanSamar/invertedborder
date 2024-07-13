@@ -19,8 +19,9 @@ const ProcessIAction = () => {
               <img
                 src="https://images.unsplash.com/photo-1494526585095-c41746248156?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG91c2V8ZW58MHx8MHx8fDA%3D=rb-4.0.3&q=80&w=400"
                 alt="Brand new residential area"
-                className="md:w-[40vw] md:h-[50vh] border rounded-2xl"
+                className="w-full max-w-[80vw] md:h-[44vh] border rounded-2xl"
               />
+              {/* md:w-[40vw] */}
             </div>
 
             <div
@@ -86,7 +87,7 @@ const ProcessIAction = () => {
               <img
                 src="https://images.unsplash.com/photo-1554995207-c18c203602cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGhvdXNlfGVufDB8fDB8fHww=rb-4.0.3&q=80&w=400"
                 alt="A scenic view of a house with mountains in the background"
-                className="md:w-[40vw] md:h-[50vh] border rounded-2xl"
+                className="w-full max-w-[80vw] md:h-[44vh] border rounded-2xl"
               />
             </div>
 
