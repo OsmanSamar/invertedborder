@@ -18,7 +18,7 @@ const TableHeader = () => {
   //   const [checkInDate, setCheckInDate] = useState(null);
   //   const [checkOutDate, setCheckOutDate] = useState(null);
   const [priceRange, setPriceRange] = useState("");
-  const [propertyType, setPropertyType] = useState("");
+  // const [propertyType, setPropertyType] = useState("");
   const [searchLocation, setSearchLocation] = useState("");
 
   const handleSearch = (e) => {
